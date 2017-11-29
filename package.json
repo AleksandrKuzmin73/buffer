@@ -1,0 +1,16 @@
+{
+  "name": "BULK_OPERATIONS_GUI_autoTest",
+  "version": "0.0.1",
+  "description": "Install packages for protractor tests",
+  "dependencies": {
+    "copy-paste": "^1.3.0",
+    "jasmine": "latest",
+    "jasmine-core": "latest",
+    "jasmine-spec-reporter": "latest",
+    "jasmine2-custom-message": "^0.8.4",
+    "package.json": "^2.0.1",
+    "protractor": "latest",
+    "protractor-jasmine2-screenshot-reporter": "latest",
+    "webdriver-manager": "latest"
+  }
+}
