@@ -1,15 +1,13 @@
-describe ("Google test", function(){
+describe ("buffer test", function(){
     var common = require('../config/common.js'),
         mainForm = new common.mainForm();
         browser.waitForAngularEnabled(false);
         browser.driver.manage().window().maximize();
 
-    // 1. Авторизация;
+    // 1. buffer test;
     it("Google search", function () {
-        mainForm.siteClipBoardClick();
         mainForm.expectSiteClipBoard();
-        mainForm.siteGoogle();
-        mainForm.expectGoole();
+        mainForm.expectSiteGoogle();
     });
 
 });
