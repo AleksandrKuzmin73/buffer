@@ -28,6 +28,7 @@ var mainForm = function() {
             browser.actions().keyDown(protractor.Key.CONTROL).sendKeys('v').perform();
             since("Содержимое буфера и строки не соответствует в форме Гугл").
             expect(searchForm.getAttribute('value')).toBe(bufferValue2);
+            browser.actions().keyUp(protractor.Key.CONTROL).perform();
         });
     };
 
